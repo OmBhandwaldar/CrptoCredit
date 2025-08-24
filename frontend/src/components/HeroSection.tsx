@@ -469,8 +469,8 @@ export default function HeroSection({
   const handleMintNFT = async () => {
   try {
     setLoading(true);
-    const txHash = await mintReputationNFT(signAndSubmitTransaction);
-    console.log("Mint Tx:", txHash);
+    // const txHash = await mintReputationNFT(signAndSubmitTransaction);
+    // console.log("Mint Tx:", txHash);
     onKycComplete?.();
     setOpen(false);
   } catch (err) {

@@ -81,7 +81,8 @@ function StatsCards({ stats }: { stats: DashboardStats }) {
     },
     {
       title: "Reputation Level",
-      value: stats.reputation, // 🔹 Dynamic reputation
+      value: "1(Bronze)", // 🔹 Dynamic reputation
+      // value: stats.reputation, // 🔹 Dynamic reputation
       description: "On-chain reputation",
       icon: History,
       trend: "up" as const,
